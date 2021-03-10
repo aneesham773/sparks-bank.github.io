@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+     <link rel="stylesheet" type="text/css" href="normalize.css">
+   <link rel="stylesheet" type="text/css" href="grid.css">
+   <link rel="stylesheet" type="text/css" href="ionicons.min.css">
+   <link rel="stylesheet" type="text/css" href="animate.css">
+   <link rel="stylesheet" type="text/css" href="queries.css">
+   
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./fontawesome-free-5.13.0-web/css/all.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <script src="https://kit.fontawesome.com/a0941870c8.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+
+    <title> Banking System</title>
+  </head>
+
+  <body>
+  
+ 
+     
+      
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.php" style="color: white;"><b>SPARKS BANK</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" style="color: white;">
+        <span class="navbar-toggler-icon" style="color: white;"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.php" style="color: white;">HOME</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="transfermoney.php" style="color: white;">VIEW CUSTOMERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="transactionhistory.php" style="color: white;">CUSTOMER TRANSACTION HISTORY</a>
+              </li>
+          </div>
+       </nav>
+      <div class="container-fluid">
+      
+            <div class="row intro py-1">
+              <div class="col-sm-12 col-md">
+                <div class="heading text-center my-5">
+                <marquee>  <h3> WELCOME TO</h3>
+                  <h1><b>SPARKS BANK</b></h1></marquee>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+            <div class="col-sm-12 col-md img text-center">
+                <img src="https://www.quickanddirtytips.com/sites/default/files/images/337/cartoon-bank.jpg" class="img-fluid pt-2" width="400" height="100">
+              </div>
+
+      <!-- Activity section -->
+            <div class="row card-body text-center">
+                 
+                  <div class="card-body">
+                    <img src="img/user-transaction.jpg" class="img-fluid" width="245" height="245">
+                    <br>
+                    <a href="transfermoney.php"><button>VIEW CUSTOMERS</button></a>
+                  </div>
+                  <img src="img/arrow.webp" class="img-fluid" width="150" height="100">
+                  <div class="card-body">
+                    <img src="img/trans-history.jpg" class="img-fluid" width="245" height="300">
+                    <br><br>
+                    <a href="transactionhistory.php"><button>TRANSACTION HISTORY</button></a>
+                  </div>
+            </div>
+      </div>
+      <footer>
+
+                
+              
+              
+        <p class="p-3 bg-dark text-white text-center">&copy 2021. Made by <b>ANEESHA BHATTATIRI</b> <br> The Sparks Foundation</p>
+        <p class="p-3 bg-dark text-white text-center">@sparksbank</p>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="jquery.waypoints.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+ <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="app.js"></script>
+  </body>
+</html>
