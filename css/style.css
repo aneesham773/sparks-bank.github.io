@@ -8,6 +8,7 @@
 .navbar-brand{
 	color: #4C4B4B;
 	letter-spacing: 0.5px;
+	width:auto;
 }
 .navbar-brand.navbar-toggler-icon{
 	background-color: white;
@@ -22,6 +23,7 @@ h2{
 	margin: 0;
 	box-sizing: border-box;
 	font-family: sans-serif;
+	width:auto;
 }
 .intro{
 	background: #EAF0F1;
