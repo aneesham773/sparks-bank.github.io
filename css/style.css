@@ -8,11 +8,11 @@
 .navbar-brand{
 	color: #4C4B4B;
 	letter-spacing: 0.5px;
-	width: 100%;
+	
 }
 .navbar-brand.navbar-toggler-icon{
 	background-color: white;
-	width:100%;
+	
 }
 h2{
 	color: #4C4B4B;
@@ -24,7 +24,7 @@ h2{
 	margin: 0;
 	box-sizing: border-box;
 	font-family: sans-serif;
-	width: auto;
+	
 }
 .intro{
 	background: #EAF0F1;
@@ -63,7 +63,7 @@ footer p{
 	font-size: 15px;
 }
 header{
-	 width: 100%;
+	
     
     
     margin:0;
@@ -94,7 +94,7 @@ header{
       align-items: center;
       transition: top 1s ease;
       display: none;
-      width: 100%;
+      
       margin: 0;
       padding: 0;
       overflow-x: hidden;
@@ -102,7 +102,7 @@ header{
     html,body{
       
       overflow-x: hidden;
-      width:100%;
+      
        background-attachment: fixed;
        background-position: auto;
     }
